@@ -1,0 +1,1 @@
+Contiene istruzioni d'uso, link Figma, palette Brickly, font e struttura UX
