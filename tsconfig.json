@@ -2,11 +2,10 @@
   "compilerOptions": {
     "target": "ES2020",
     "module": "CommonJS",
-    "typeRoots": ["./node_modules/@types", "./apps/brickly-monorepo/backend/types"],
+    "outDir": "dist",
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "strict": true,
-    "forceConsistentCasingInFileNames": true
+    "strict": true
   },
   "include": ["apps/brickly-monorepo/backend/**/*"]
 }
