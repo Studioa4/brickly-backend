@@ -8,7 +8,7 @@ app.use(express.json());
 
 app.use('/api', emailRoutes);
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 10000;
 app.listen(PORT, () => {
   console.log(`Server avviato sulla porta ${PORT}`);
 });
