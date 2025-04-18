@@ -1,8 +1,8 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "scripts": {
-  "start": "node --loader ts-node/esm index.ts",
+ "scripts": {
+  "start": "npx ts-node apps/brickly-monorepo/backend/index.ts",
     "dev": "tsx server.ts",
     "dev:backend": "ts-node apps/brickly-monorepo/backend/index.ts"
   },
