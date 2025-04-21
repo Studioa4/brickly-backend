@@ -5,7 +5,6 @@
   "scripts": {
     "build": "tsc",
     "start": "npx tsx index.ts",
-    "start": "node dist/index.js",
     "dev": "tsx index.ts"
   },
   "dependencies": {
